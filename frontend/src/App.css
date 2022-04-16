@@ -1,0 +1,172 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.login-wrapper {
+  max-width: 500px;
+  margin: 100px auto;
+  background-color: aliceblue;
+  padding: 40px;
+}
+
+.loginButton {
+  margin-bottom: 20px !important;
+}
+
+.headerWrapper {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  width: 100%;
+  /* justify-content: space-between; */
+  align-items: center;
+  padding: 10px 50px;
+  background-color: #edfaff;
+}
+
+.logo {
+  font-weight: bold; 
+  font-size: 25px;
+  color: #091f80;
+  margin: 0 !important;
+
+}
+.navLink {
+  display: block;
+  /* margin-right: auto; */
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.lastLink {
+  margin-right: auto;
+}
+
+.userBanner {
+  display: flex;
+  align-items: center;
+  /* margin-left: auto !important; */
+}
+
+.userName {
+  margin-right: 20px;
+  /* margin-top: initial !important; */
+  /* margin-top: unset !important; */
+  margin-top: 20px;
+  display: block;
+  /* height: 100%; */
+}
+
+.link {
+  margin-left: 20px;
+  text-decoration: none;
+}
+
+.sensorsListWrapper {
+  width: 100%;
+  display: flex;
+  flex-basis: 500px;
+  
+  flex-wrap: wrap;
+  margin-top: 40px;
+  gap: 50px;
+
+}
+
+.sensorsCard {
+  min-width: 400px !important;
+}
+
+.dashboardWrapper {
+  padding: 50px;
+}
+
+.activeSensorsCardsWrapper {
+  display: flex;
+}
+.activeSensorsCardsWrapper > div {
+  flex-grow: 1;
+  flex-wrap: wrap;
+  background-color: red;
+  padding: 25px 30px;
+  margin: 50px;
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  border-radius: 5px;
+}
+.activeSensorsCardsWrapper > div:first-of-type {
+  background-color: rgb(184, 255, 193);
+  color: green
+}
+
+.activeSensorsCardsWrapper > div:last-of-type {
+  background-color: rgb(253, 186, 186);
+  color: red
+}
+
+.activeSensorsHeader {
+  margin-top: 50px;
+  margin-left: 50px;
+}
+
+.addSensorWrapper {
+  /* max-width: 500px; */
+  margin: 100px auto;
+  background-color: aliceblue;
+  padding: 40px;
+}
+
+.removeButton {
+  /* display: block !important; */
+  margin-left: auto !important;
+  padding: 3px 5px !important;
+  font-size: 16px !important;
+  background-color: transparent !important;
+  color: red !important;
+}
+
+.card-header {
+  display: flex;
+  justify-content: space-between;
+}
+.cardActiveButton{
+  background-color: rgb(43, 161, 43) !important;
+  border: none !important;
+}
