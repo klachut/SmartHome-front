@@ -60,11 +60,10 @@
 }
 
 .logo {
-  font-weight: bold; 
+  font-weight: bold;
   font-size: 25px;
   color: #091f80;
   margin: 0 !important;
-
 }
 .navLink {
   display: block;
@@ -101,11 +100,10 @@
   width: 100%;
   display: flex;
   flex-basis: 500px;
-  
+
   flex-wrap: wrap;
   margin-top: 40px;
   gap: 50px;
-
 }
 
 .sensorsCard {
@@ -133,12 +131,12 @@
 }
 .activeSensorsCardsWrapper > div:first-of-type {
   background-color: rgb(184, 255, 193);
-  color: green
+  color: green;
 }
 
 .activeSensorsCardsWrapper > div:last-of-type {
   background-color: rgb(253, 186, 186);
-  color: red
+  color: red;
 }
 
 .activeSensorsHeader {
@@ -166,7 +164,7 @@
   display: flex;
   justify-content: space-between;
 }
-.cardActiveButton{
+.cardActiveButton {
   background-color: rgb(43, 161, 43) !important;
   border: none !important;
 }
